@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: rgb(0, 0, 33);
+    color: white;
+    font-family:'Poppins',sans-serif;
+    overflow-x: hidden;
+}
+
+.left button{
+    font-size: 1.4rem;
+    background:rgb(77, 77, 209) ;
+    border-radius: 4.2rem;
+    padding: 0.8rem 1.6rem;
+    display: inline-block;
+    margin: 2.4rem 0;
+    font-weight: 520;
+    color:rgb(0, 0, 33);
+    box-shadow:0 0 1rem rgb(77, 77, 209);
+    border: none;
+    transition: ease 0.3s;
+}
+
+button:hover{
+    border: .2rem solid rgb(77, 77, 209);
+    box-shadow: none;
+    background: transparent;
+    color:rgb(77, 77, 209);
+
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content:space-between  ;
+    align-items: center;
+    height: 4rem;
+    background: rgb(18,18 ,62);
+    padding: 0 4rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+} 
+
+nav ul li{
+    list-style: none;
+    margin: 0 24px;
+    justify-content:space-around ;
+}
+
+main > hr{
+    border: 0;
+    height: .1rem;
+    margin: 32px 64px;
+    background: white;
+
+}
+
+.first .left{
+    font-size: 1.5rem;
+    margin: 4rem 0;
+    text-shadow: .2px 0 rgb(223, 239, 255);
+}
+
+.right img{
+    margin: 2.4rem 0;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 2.4rem;
+    
+}
+img{
+    height: 360px;
+    width: auto;
+}
+
+p span{
+    color: rgb(77, 77, 209);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    font-size: 1.01rem;
+}
+
+.second{
+   background: rgb(20, 0, 66);
+}
+
+section{
+    min-height: 16rem;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin:2rem auto;
+}
+
+footer{
+    background: rgb(1, 1, 23);
+    color: grey;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.footer-links ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 2rem auto;
+}
+
+a{
+    color: grey;
+}
+
+.copy p{
+    display: block;
+    justify-content: center;
+}
+
+.footer-line{
+    display: flex;
+    justify-content:space-evenly;
+}
