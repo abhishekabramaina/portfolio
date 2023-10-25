@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
 }
 
-.left button{
+button{
     font-size: 1.4rem;
     background:rgb(77, 77, 209) ;
     border-radius: 4.2rem;
@@ -138,4 +138,48 @@ a{
 .footer-line{
     display: flex;
     justify-content:space-evenly;
+}
+
+section{
+    min-height: 100vh;
+}
+
+.vmatch{
+ height: 300px;
+ width: 425.5px;
+ position: relative;
+ margin: 4em 0;
+}
+
+.vmatchscreen{
+ width: 100%;
+ height: 267px;
+ position: absolute;
+ top: 19px;
+ left: 66.4px;
+ overflow: scroll;
+}
+
+.vmatchscreen::-webkit-scrollbar{
+    display: none;
+}
+
+.vmatchimg{
+    width: 100%;
+    height: auto;
+}
+
+.project-desc{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-container{
+    flex: 2;
+}
+
+.projects{
+    display: flex;
 }
